@@ -5,7 +5,7 @@ Home: https://github.com/klauer/qtpynodeeditor
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python Qt node editor
 

@@ -1,10 +1,10 @@
 {% set name = "qtpynodeeditor" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "ec2e5dc591110bce52b8a8f1781ddfef86e540dce841350abde599bd3ac53a0c" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "5201d4d52115ebf67a066c969442cce49c1b541635fc6c77a526724c1bca7916" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
