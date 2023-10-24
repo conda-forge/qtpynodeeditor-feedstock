@@ -1,6 +1,6 @@
 {% set name = "qtpynodeeditor" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "141acb0ba5ef84a03efdbe4d88db0a46facf00449a6542492d9b585aa9931bda" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "66b08e608f0f16edc4bce90d21d5e1c31253a0aaf93f4f5cb2d110f82be47630" %}
 
 package:
   name: {{ name|lower }}
