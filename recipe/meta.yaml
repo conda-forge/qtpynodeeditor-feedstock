@@ -1,4 +1,5 @@
 {% set name = "qtpynodeeditor" %}
+{% set python_min = "3.9" %}
 {% set version = "0.3.2" %}
 {% set sha256 = "d3933cca107cfc83dc87971310b244e4587e0c76a2d472a75f04cd41001d0e7d" %}
 
