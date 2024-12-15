@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qtpynodeeditor-
 
 Home: https://github.com/klauer/qtpynodeeditor
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Summary: Python Qt node editor
 
